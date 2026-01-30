@@ -1,0 +1,14 @@
+name: Deploy Matrix Node
+on: [push] # 只要你改一行字，所有矩阵节点同步更新
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.GCrFfyAnVYyJZfaGREE0bfr0GpzlUqAvF6jAzNSx }}
+          accountId: 2d026c95b9cfb8fe0e3de7f328b2aa6a # 在CF URL里能看到一串长字符
+          projectName: matrix-node-01 # 每次克隆只需改这个名字
+          directory: .
