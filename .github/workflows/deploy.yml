@@ -8,7 +8,7 @@ jobs:
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: ${{ secrets.GCrFfyAnVYyJZfaGREE0bfr0GpzlUqAvF6jAzNSx }}
+          apiToken: ${{ secrets.FDDA }}
           accountId: 2d026c95b9cfb8fe0e3de7f328b2aa6a # 在CF URL里能看到一串长字符
           projectName: matnode # 每次克隆只需改这个名字
           directory: .
