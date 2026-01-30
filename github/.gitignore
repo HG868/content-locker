@@ -1,0 +1,74 @@
+# 依赖目录
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 日志
+logs
+*.log
+
+# 环境变量文件（包含敏感信息）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 测试覆盖率
+/coverage
+
+# 构建输出
+/dist
+/build
+
+# 临时文件
+/tmp
+/temp
+
+# 本地配置文件（可能包含敏感信息）
+config.local.js
+*.local.json
+
+# 证书和密钥
+*.pem
+*.key
+*.crt
+
+# 数据库文件
+*.sqlite
+*.db
+
+# 上传的文件（根据项目需求决定是否忽略）
+# /uploads
+# /assets/uploads
+
+# 缓存
+.cache/
+*.cache
+
+# 其他
+*.tgz
+*.tar.gz
