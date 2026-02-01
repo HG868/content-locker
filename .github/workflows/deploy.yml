@@ -11,5 +11,5 @@ jobs:
           # 必须写这个名字，GitHub 才能从保险箱里取货
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: matnode-036
+          projectName: matnode
           directory: .
